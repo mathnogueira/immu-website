@@ -1,0 +1,14 @@
+{
+  "name": "immu",
+  "version": "1.0.0",
+  "description": "Site do Instituto Manancial Maos Unidas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matheus Nogueira & Ana Elisa Cunha",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
