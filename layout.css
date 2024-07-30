@@ -92,6 +92,7 @@ header .menu > ul li:not(:first-child) {
 .menu-item {
     color: #ffffff;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .menu-item-primary {
@@ -106,7 +107,7 @@ header .menu > ul li:not(:first-child) {
 }
 
 .menu-item:hover {
-    color: #121212;
+    color: rgb(166,62,191);
 }
 
 #carrossel {
@@ -171,7 +172,7 @@ header .menu > ul li:not(:first-child) {
 .call-for-action {
     color: #ffffff;
     display: inline-block;
-    font-size: 1rem;
+    font-size: 1.2rem;
     background: #121212;
     padding: 14px 80px;
     border-radius: 8px;
@@ -244,6 +245,11 @@ header .menu > ul li:not(:first-child) {
 #conheca-mais .call-for-action {
     background-color: #A457B0;
     border: none;
+}
+
+#conheca-mais .call-for-action:hover {
+    background-color: #852596;
+    color: #ffffff;
 }
 
 .conheca-mais-imgs {
@@ -416,10 +422,13 @@ footer {
     justify-content: space-between;
 
     width: 100%;
-    height: 170px;
-    padding: 20px 0;
 
     background-color: #2D2D2A;
+}
+
+footer .content {
+    width: 100%;
+    background-color: inherit !important;
 }
 
 footer .container > div {
@@ -428,10 +437,64 @@ footer .container > div {
 }
 
 footer .logo img {
-    width: 104px;
-    height: 104px;
+    width: 168px;
+    height: 168px;
+}
+
+.footer-content {
+    display: flex;
+}
+
+footer h3 {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+footer hr {
+    width: 100%;
 }
 
 footer .sobre {
+    padding-left: 100px;
+    width: 100%;
+}
 
+footer .sobre .links ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .sobre .links ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+footer .sobre .links ul li a:hover {
+    text-decoration: underline;
+}
+
+footer .informacoes {
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+
+.sobre > div {
+    display: flex;
+    align-items: end;
+    width: 100%;
+}
+
+.redes-sociais {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.redes-sociais > * {
+    padding: 0 10px;
+    width: 24px;
 }
