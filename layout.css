@@ -498,3 +498,43 @@ footer .informacoes {
     padding: 0 10px;
     width: 24px;
 }
+
+#quem-somos .linha-tempo .ano {
+    display: flex;
+    align-items: stretch;
+    justify-content: start;
+
+    margin-bottom: 80px;
+}
+
+#quem-somos .titulo {
+    margin: 0 0 30px 20px;
+}
+
+#quem-somos .titulo h1 {
+    color: #2D2D2A;
+}
+
+#quem-somos .linha-tempo .ano > div:first-child {
+    background-color: rgba(252, 231, 255, 0.65);
+    margin-right: 30px;
+    padding: 0 20px;
+    border-radius: 16px;
+    flex: 1;
+}
+
+#quem-somos h1 {
+    font-size: 2rem;
+    color: #A457B0
+}
+
+#quem-somos .img {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#quem-somos .linha-tempo {
+    border-left: solid 5px #A457B0;
+    border-radius: 16px;
+}
